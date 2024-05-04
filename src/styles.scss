@@ -34,17 +34,17 @@ button {
   margin-right: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
-}
 
-button:hover {
-  background-color: black;
-  color: white;
-}
+  &:hover {
+    background-color: black;
+    color: white;
+  }
 
-button:disabled {
-  background-color: #eee;
-  color: #aaa;
-  cursor: auto;
+  &:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
 }
 
 * {
